@@ -5,7 +5,7 @@ const hotDrinksComponent = hotDrinks.map(hotDrink =>
             <p class="product-price">${hotDrink.price} Ft</p>
         </div>
     `
-)
+).join("")
 
 const softDrinksComponent = softDrinks.map(softDrink =>
     `
@@ -14,7 +14,7 @@ const softDrinksComponent = softDrinks.map(softDrink =>
             <p class="product-price">${softDrink.price} Ft</p>
         </div>
     `
-)
+).join("")
 
 const foodsComponent = foods.map(food =>
     `
@@ -23,7 +23,7 @@ const foodsComponent = foods.map(food =>
             <p class="product-price">${food.price} Ft</p>
         </div>
     `
-)
+).join("")
 
 const coldsComponent = colds.map(cold =>
     `
@@ -32,17 +32,34 @@ const coldsComponent = colds.map(cold =>
             <p class="product-price">${cold.price} Ft</p>
         </div>
     `
-)
+).join("")
 
 
 
 const loadEvent = () => {
     const rootElement = document.querySelector("#root")
 
-    rootElement.insertAdjacentHTML("beforeend", hotDrinksComponent);
-    rootElement.insertAdjacentHTML("beforeend", softDrinksComponent);
-    rootElement.insertAdjacentHTML("beforeend", foodsComponent);
-    rootElement.insertAdjacentHTML("beforeend", coldsComponent);
+    const productsContainer = () => {
+        return `
+            <div class="hotdrinks-main-container">
+                <h2 class=".product-category-title">Forró italok</h2>
+                ${hotDrinksComponent}
+            </div>
+            <div class="softdrinks-main-container">
+                <h2 class=".product-category-title">Üditők</h2>
+                ${softDrinksComponent}
+            </div>
+            <div class="foods-main-container">
+                <h2 class=".product-category-title">Finom falatkák</h2>
+                ${foodsComponent}
+            </div>
+            <div class="colds-main-container">
+                <h2 class=".product-category-title">Jéghideg finomságok</h2>
+                ${coldsComponent}
+            </div>
+        `
+    }
+    rootElement.insertAdjacentHTML("beforeend", productsContainer());
 }
 
 window.addEventListener("load", loadEvent)
