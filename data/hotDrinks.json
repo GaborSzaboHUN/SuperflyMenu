@@ -1,0 +1,52 @@
+const hotDrinks = [
+    {
+        "name": "Espresso",
+        "varieties": "",
+        "price": 500
+    },
+    {
+        "name": "Hosszú kávé",
+        "varieties": "",
+        "price": 550
+    },
+    {
+        "name": "Dupla espresso",
+        "varieties": "Doppio",
+        "price": 700
+    },
+    {
+        "name": "Cappuccino",
+        "varieties": "",
+        "price": 750
+    },
+    {
+        "name": "Tejes kávé",
+        "varieties": "Latte",
+        "price": 750
+    },
+    {
+        "name": "Latte macchiato",
+        "varieties": "",
+        "price": 850
+    },
+    {
+        "name": "Affogato",
+        "varieties": "",
+        "price": 700
+    },
+    {
+        "name": "Jegeskávé",
+        "varieties": "",
+        "price": 950
+    },
+    {
+        "name": "Forrócsoki",
+        "varieties": "",
+        "price": 750
+    },
+    {
+        "name": "Tea",
+        "varieties": "Több ízben",
+        "price": 500
+    }
+]

@@ -1,0 +1,52 @@
+const foods = [
+    {
+        "name": "Pizza",
+        "varieties": "Margherita",
+        "price": 2450
+    },
+    {
+        "name": "Pizza",
+        "varieties": "Sonkás, szalámis, baconös",
+        "price": 2750
+    },
+    {
+        "name": "Nachos",
+        "varieties": "",
+        "price": 950
+    },
+    {
+        "name": "Croissant",
+        "varieties": "",
+        "price": 500
+    },
+    {
+        "name": "Chips",
+        "varieties": "",
+        "price": 550
+    },
+    {
+        "name": "Stickletti",
+        "varieties": "",
+        "price": 450
+    },
+    {
+        "name": "Muffin",
+        "varieties": "",
+        "price": 600
+    },
+    {
+        "name": "Fánk",
+        "varieties": "Több ízben",
+        "price": 350
+    },
+    {
+        "name": "Csoki",
+        "varieties": "",
+        "price": 350
+    },
+    {
+        "name": "Nyalóka",
+        "varieties": "",
+        "price": 200
+    }
+]

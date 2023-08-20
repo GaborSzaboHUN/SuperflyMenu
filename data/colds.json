@@ -1,0 +1,22 @@
+const colds = [
+    {
+        "name": "Jégkása",
+        "varieties": "3 dl",
+        "price": 600
+    },
+    {
+        "name": "Jégkása",
+        "varieties": "2 dl",
+        "price": 500
+    },
+    {
+        "name": "Fagyi",
+        "varieties": "",
+        "price": 450
+    },
+    {
+        "name": "Öntet",
+        "varieties": "",
+        "price": 50
+    }
+]

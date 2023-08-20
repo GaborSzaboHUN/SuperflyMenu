@@ -1,0 +1,37 @@
+const softDrinks = [
+    {
+        "name": "Szénsavas üdítők",
+        "varieties": "Coca-Cola, Fanta, Kilney, Stb ...",
+        "price": 500
+    },
+    {
+        "name": "Fritz",
+        "varieties": "Több ízben",
+        "price": 850
+    },
+    {
+        "name": "Viwa",
+        "varieties": "",
+        "price": 600
+    },
+    {
+        "name": "Fuze tea",
+        "varieties": "",
+        "price": 500
+    },
+    {
+        "name": "Cappy gyümülcslevek",
+        "varieties": "",
+        "price": 500
+    },
+    {
+        "name": "Víz",
+        "varieties": "Kis üveges",
+        "price": 350
+    },
+    {
+        "name": "Víz",
+        "varieties": "Nagy üveges",
+        "price": 600
+    }
+]
