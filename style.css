@@ -3,7 +3,6 @@ layout
 formatting
 2x2 es felosztás -» 1 es felosztás
 parallex képek
-nyelvválasztó [0],[1] értékek a feedben
 */
 
 /* - - - - RESET CSS - - - - */
@@ -58,4 +57,8 @@ select {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.active {
+    color: blue;
 }

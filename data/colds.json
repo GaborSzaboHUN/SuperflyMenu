@@ -1,22 +1,22 @@
 const colds = [
     {
-        "name": "Jégkása",
-        "varieties": "3 dl",
+        "name": ["Jégkása", "Slushy"],
+        "varieties": ["3 dl", "3 dl"],
         "price": 600
     },
     {
-        "name": "Jégkása",
-        "varieties": "2 dl",
+        "name": ["Jégkása", "Slushy"],
+        "varieties": ["2 dl", "2 dl"],
         "price": 500
     },
     {
-        "name": "Fagyi",
-        "varieties": "",
+        "name": ["Fagyi", "Ice-cream"],
+        "varieties": ["", ""],
         "price": 450
     },
     {
-        "name": "Öntet",
-        "varieties": "",
+        "name": ["Öntet", "Dressing"],
+        "varieties": ["", ""],
         "price": 50
     }
 ]

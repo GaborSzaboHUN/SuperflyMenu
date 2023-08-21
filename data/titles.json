@@ -1,0 +1,14 @@
+const titles = [
+    {
+        "title": ["Forró italok", "Hot drinks"]
+    },
+    {
+        "title": ["Üdítők", "Soft drinks"]
+    },
+    {
+        "title": ["Finom falatkák", "Foods"]
+    },
+    {
+        "title": ["Jéghideg finomságok", "Ice cold delicacies"]
+    },
+]

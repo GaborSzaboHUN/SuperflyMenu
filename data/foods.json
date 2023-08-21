@@ -1,52 +1,52 @@
 const foods = [
     {
-        "name": "Pizza",
-        "varieties": "Margherita",
+        "name": ["Pizza", "Pizza"],
+        "varieties": ["Margherita", "Margherita"],
         "price": 2450
     },
     {
-        "name": "Pizza",
-        "varieties": "Sonkás, szalámis, baconös",
+        "name": ["Pizza", "Pizza"],
+        "varieties": ["Sonkás, szalámis, baconös", "Ham, salami, bacon"],
         "price": 2750
     },
     {
-        "name": "Nachos",
-        "varieties": "",
+        "name": ["Nachos", "Nachos"],
+        "varieties": ["", ""],
         "price": 950
     },
     {
-        "name": "Croissant",
-        "varieties": "",
+        "name": ["Croissant", "Croissant"],
+        "varieties": ["", ""],
         "price": 500
     },
     {
-        "name": "Chips",
-        "varieties": "",
+        "name": ["Chips", "Chips"],
+        "varieties": ["", ""],
         "price": 550
     },
     {
-        "name": "Stickletti",
-        "varieties": "",
+        "name": ["Stickletti", "Stickletti"],
+        "varieties": ["", ""],
         "price": 450
     },
     {
-        "name": "Muffin",
-        "varieties": "",
+        "name": ["Muffin", "Muffin"],
+        "varieties": ["", ""],
         "price": 600
     },
     {
-        "name": "Fánk",
-        "varieties": "Több ízben",
+        "name": ["Fánk", "Doughnut"],
+        "varieties": ["Több ízben", "Various flavors"],
         "price": 350
     },
     {
-        "name": "Csoki",
-        "varieties": "",
+        "name": ["Csoki", "Chocolate"],
+        "varieties": ["", ""],
         "price": 350
     },
     {
-        "name": "Nyalóka",
-        "varieties": "",
+        "name": ["Nyalóka", "Lollipop"],
+        "varieties": ["", ""],
         "price": 200
     }
 ]

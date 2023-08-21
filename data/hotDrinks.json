@@ -1,52 +1,52 @@
 const hotDrinks = [
     {
-        "name": "Espresso",
-        "varieties": "",
+        "name": ["Espresso", "Espresso"],
+        "varieties": ["", ""],
         "price": 500
     },
     {
-        "name": "Hosszú kávé",
-        "varieties": "",
+        "name": ["Hosszú kávé", "Long coffee"],
+        "varieties": ["", ""],
         "price": 550
     },
     {
-        "name": "Dupla espresso",
-        "varieties": "Doppio",
+        "name": ["Dupla espresso", "Double espresso"],
+        "varieties": ["Doppio", "Doppio"],
         "price": 700
     },
     {
-        "name": "Cappuccino",
-        "varieties": "",
+        "name": ["Cappuccino", "Cappuccino"],
+        "varieties": ["", ""],
         "price": 750
     },
     {
-        "name": "Tejes kávé",
-        "varieties": "Latte",
+        "name": ["Tejes kávé", "Coffee latte"],
+        "varieties": ["Latte", ""],
         "price": 750
     },
     {
-        "name": "Latte macchiato",
-        "varieties": "",
+        "name": ["Latte macchiato", "Latte macchiato"],
+        "varieties": ["", ""],
         "price": 850
     },
     {
-        "name": "Affogato",
-        "varieties": "",
+        "name": ["Affogato", "Affogato"],
+        "varieties": ["", ""],
         "price": 700
     },
     {
-        "name": "Jegeskávé",
-        "varieties": "",
+        "name": ["Jegeskávé", "Ice-cream coffee"],
+        "varieties": ["", ""],
         "price": 950
     },
     {
-        "name": "Forrócsoki",
-        "varieties": "",
+        "name": ["Forrócsoki", "Hot chocolate"],
+        "varieties": ["", ""],
         "price": 750
     },
     {
-        "name": "Tea",
-        "varieties": "Több ízben",
+        "name": ["Tea", "Tea"],
+        "varieties": ["Több ízben", "Various flavors"],
         "price": 500
     }
 ]
