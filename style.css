@@ -50,6 +50,15 @@ select {
 
 /* - - - - END RESET CSS - - - - */
 
+:root {
+    --superfly-yellowis: #c6a445;
+}
+
+@font-face {
+    font-family: 'DINPro_Black';
+    src: url('assets/fonts/DINPro-Black_13933.ttf') format('ttf'),
+}
+
 .hotdrinks-container,
 .softdrinks-container,
 .foods-container,
@@ -61,4 +70,9 @@ select {
 
 .active {
     color: blue;
+}
+
+.product-category-title {
+    font-family: DINPro_Black, Times, serif;
+    color: var(--superfly-yellowis);
 }

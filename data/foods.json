@@ -6,23 +6,23 @@ const foods = [
     },
     {
         "name": ["Pizza", "Pizza"],
-        "varieties": ["Sonkás, szalámis, baconös", "Ham, salami, bacon"],
+        "varieties": ["Sonkás / szalámis / baconös" ,"Ham / salami / bacon"],
         "price": 2750
     },
     {
         "name": ["Nachos", "Nachos"],
         "varieties": ["", ""],
-        "price": 950
+        "price": 1100
     },
     {
         "name": ["Croissant", "Croissant"],
         "varieties": ["", ""],
-        "price": 500
+        "price": 550
     },
     {
         "name": ["Chips", "Chips"],
         "varieties": ["", ""],
-        "price": 550
+        "price": 650
     },
     {
         "name": ["Stickletti", "Stickletti"],
@@ -36,13 +36,13 @@ const foods = [
     },
     {
         "name": ["Fánk", "Doughnut"],
-        "varieties": ["Több ízben", "Various flavors"],
-        "price": 350
+        "varieties": ["", ""],
+        "price": 400
     },
     {
         "name": ["Csoki", "Chocolate"],
         "varieties": ["", ""],
-        "price": 350
+        "price": 400
     },
     {
         "name": ["Nyalóka", "Lollipop"],

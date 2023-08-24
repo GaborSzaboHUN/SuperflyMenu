@@ -39,19 +39,19 @@ let coldsComponent = colds.map(cold =>
 const productsContainer = () => {
     return `
         <div class="hotdrinks-main-container">
-            <h2 class=".product-category-title">${titles[0].title[index]}</h2>
+            <h2 class="product-category-title">${titles[0].title[index]}</h2>
             ${hotDrinksComponent}
         </div>
         <div class="softdrinks-main-container">
-            <h2 class=".product-category-title">${titles[1].title[index]}</h2>
+            <h2 class="product-category-title">${titles[1].title[index]}</h2>
             ${softDrinksComponent}
         </div>
         <div class="foods-main-container">
-            <h2 class=".product-category-title">${titles[2].title[index]}</h2>
+            <h2 class="product-category-title">${titles[2].title[index]}</h2>
             ${foodsComponent}
         </div>
         <div class="colds-main-container">
-            <h2 class=".product-category-title">${titles[3].title[index]}</h2>
+            <h2 class="product-category-title">${titles[3].title[index]}</h2>
             ${coldsComponent}
         </div>
     `

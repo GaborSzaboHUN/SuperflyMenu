@@ -1,37 +1,37 @@
 const softDrinks = [
     {
         "name": ["Szénsavas üdítők", "Soft drinks"],
-        "varieties": ["Coca-Cola, Fanta, Kilney, Stb ...", "Coca-Cola, Fanta, Kilney, etc ..."],
-        "price": 500
+        "varieties": ["0,25l", "0,25l"],
+        "price": 550
     },
     {
         "name": ["Fritz", "Fritz"],
-        "varieties": ["Több ízben", "Various flavors"],
+        "varieties": ["0,33l", "0,33l"],
         "price": 850
     },
     {
         "name": ["Viwa", "Viwa"],
-        "varieties": ["", ""],
+        "varieties": ["0,6l", "0,6l"],
         "price": 600
     },
     {
         "name": ["Fuze tea", "Fuze tea"],
-        "varieties": ["", ""],
-        "price": 500
+        "varieties": ["0,25l", "0,25l"],
+        "price": 550
     },
     {
         "name": ["Cappy gyümülcslevek", "Cappy fruit juices"],
-        "varieties": ["", ""],
-        "price": 500
+        "varieties": ["0,25l", "0,25l"],
+        "price": 550
     },
     {
         "name": ["Víz", "Water"],
-        "varieties": ["Kis üveges", "Small bottle"],
-        "price": 350
+        "varieties": ["Kis üveges 0,33l", "Small bottle 0,33l"],
+        "price": 400
     },
     {
         "name": ["Víz", "Water"],
-        "varieties": ["Nagy üveges", "Big bottle"],
-        "price": 600
+        "varieties": ["Nagy üveges 0,75l", "Big bottle 0,75l"],
+        "price": 650
     }
 ]
