@@ -103,7 +103,7 @@ body {
 }
 
 .hotdrinks-main-container::before {
-    background: url(/assets/img/Dougnot.svg) center center no-repeat;
+    background: url(/assets/img/CoffeCup.svg) center center no-repeat;
 }
 
 .softdrinks-main-container::before {
