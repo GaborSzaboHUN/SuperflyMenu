@@ -4,7 +4,7 @@ let hotDrinksComponent = hotDrinks.map((hotDrink) =>
     `
         <div class="hotdrinks-container">
             <p class="product-name">${hotDrink.name[index]} <span>${hotDrink.varieties[index]}</span></p>
-            <p class="product-price">${hotDrink.price} Ft</p>
+            <p class="product-price">${addThousandsSeparator(hotDrink.price)} <span>Ft</span></p>
         </div>
     `
 ).join("")
@@ -13,7 +13,7 @@ let softDrinksComponent = softDrinks.map(softDrink =>
     `
         <div class="softdrinks-container">
             <p class="product-name">${softDrink.name[index]} <span>${softDrink.varieties[index]}</span></p>
-            <p class="product-price">${softDrink.price} Ft</p>
+            <p class="product-price">${addThousandsSeparator(softDrink.price)} <span>Ft</span></p>
         </div>
     `
 ).join("")
@@ -22,7 +22,7 @@ let foodsComponent = foods.map(food =>
     `
         <div class="foods-container">
             <p class="product-name">${food.name[index]} <span>${food.varieties[index]}</span></p>
-            <p class="product-price">${food.price} Ft</p>
+            <p class="product-price">${addThousandsSeparator(food.price)} <span>Ft</span></p>
         </div>
     `
 ).join("")
@@ -31,28 +31,32 @@ let coldsComponent = colds.map(cold =>
     `
         <div class="colds-container">
             <p class="product-name">${cold.name[index]} <span>${cold.varieties[index]}</span></p>
-            <p class="product-price">${cold.price} Ft</p>
+            <p class="product-price">${addThousandsSeparator(cold.price)} <span>Ft</span></p>
         </div>
     `
 ).join("")
 
 const productsContainer = () => {
     return `
-        <div class="hotdrinks-main-container">
-            <h2 class="product-category-title">${titles[0].title[index]}</h2>
-            ${hotDrinksComponent}
-        </div>
-        <div class="softdrinks-main-container">
-            <h2 class="product-category-title">${titles[1].title[index]}</h2>
-            ${softDrinksComponent}
-        </div>
-        <div class="foods-main-container">
-            <h2 class="product-category-title">${titles[2].title[index]}</h2>
-            ${foodsComponent}
-        </div>
-        <div class="colds-main-container">
-            <h2 class="product-category-title">${titles[3].title[index]}</h2>
-            ${coldsComponent}
+        <div class=products-containers-wrapper>
+            <div class="hotdrinks-main-container">
+                <h2 class="product-category-title">${titles[0].title[index]}</h2>
+                ${hotDrinksComponent}
+            </div>
+            <div class="softdrinks-main-container">
+                <h2 class="product-category-title">${titles[1].title[index]}</h2>
+                ${softDrinksComponent}
+            </div>
+            <div class="foods-main-container">
+                <h2 class="product-category-title">${titles[2].title[index]}</h2>
+                ${foodsComponent}
+            </div>
+            <div class="colds-main-container">
+                <h2 class="product-category-title">${titles[3].title[index]}</h2>
+                ${coldsComponent}
+            </div>
+            <div class="vertical-border"></div>
+            <div class="horizontal-border"></div>
         </div>
     `
 }
@@ -84,7 +88,7 @@ languageSelectors.forEach((languageSelector) => {
             `
             <div class="hotdrinks-container">
                 <p class="product-name">${hotDrink.name[index]} <span>${hotDrink.varieties[index]}</span></p>
-                <p class="product-price">${hotDrink.price} Ft</p>
+                <p class="product-price">${addThousandsSeparator(hotDrink.price)} <span>Ft</span></p>
             </div>
         `
         ).join("")
@@ -93,7 +97,7 @@ languageSelectors.forEach((languageSelector) => {
             `
             <div class="softdrinks-container">
                 <p class="product-name">${softDrink.name[index]} <span>${softDrink.varieties[index]}</span></p>
-                <p class="product-price">${softDrink.price} Ft</p>
+                <p class="product-price">${addThousandsSeparator(softDrink.price)} <span>Ft</span></p>
             </div>
         `
         ).join("")
@@ -102,7 +106,7 @@ languageSelectors.forEach((languageSelector) => {
             `
             <div class="foods-container">
                 <p class="product-name">${food.name[index]} <span>${food.varieties[index]}</span></p>
-                <p class="product-price">${food.price} Ft</p>
+                <p class="product-price">${addThousandsSeparator(food.price)} <span>Ft</span></p>
             </div>
         `
         ).join("")
@@ -111,7 +115,7 @@ languageSelectors.forEach((languageSelector) => {
             `
             <div class="colds-container">
                 <p class="product-name">${cold.name[index]} <span>${cold.varieties[index]}</span></p>
-                <p class="product-price">${cold.price} Ft</p>
+                <p class="product-price">${addThousandsSeparator(cold.price)} <span>Ft</span></p>
             </div>
         `
         ).join("")
@@ -119,3 +123,7 @@ languageSelectors.forEach((languageSelector) => {
         rootElement.insertAdjacentHTML("beforeend", productsContainer());
     })
 })
+
+function addThousandsSeparator(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+}

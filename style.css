@@ -52,12 +52,89 @@ select {
 
 :root {
     --superfly-yellowis: #c6a445;
+    --white: #fff;
 }
 
 @font-face {
     font-family: 'DINPro_Black';
-    src: url('assets/fonts/DINPro-Black_13933.ttf') format('ttf'),
+    src: url('assets/fonts/DINPro-Black_13933.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'DINPro_Bold';
+    src: url('assets/fonts/DINPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINPro_Medium';
+    src: url('assets/fonts/DINPro-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINPro_Light';
+    src: url('assets/fonts/DINPro-Light.otf') format('opentype');
+}
+
+body {
+    background-color: #000;
+}
+
+.products-containers-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.hotdrinks-main-container,
+.softdrinks-main-container,
+.foods-main-container,
+.colds-main-container {
+    position: relative;
+}
+
+.foods-main-container {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+
+.hotdrinks-main-container::before {
+    background: url(/assets/img/Dougnot.svg) center center no-repeat;
+}
+
+.softdrinks-main-container::before {
+    background: url(/assets/img/GlassDrink.svg) center center no-repeat;
+    transform: rotate(20deg);
+}
+
+.foods-main-container::before {
+    background: url(/assets/img/Pizza.svg) center center no-repeat;
+}
+
+.colds-main-container::before {
+    background: url(/assets/img/IceCream.svg) center center no-repeat;
+}
+
+.hotdrinks-main-container::before,
+.softdrinks-main-container::before,
+.foods-main-container::before,
+.colds-main-container::before {
+    content: "";
+
+    position: absolute;
+    top: -25px;
+    right: -40px;
+
+    width: 100px;
+    height: 100px;
+
+    background-size: contain;
+}
+
 
 .hotdrinks-container,
 .softdrinks-container,
@@ -73,6 +150,53 @@ select {
 }
 
 .product-category-title {
-    font-family: DINPro_Black, Times, serif;
+    margin: 10px 0 40px;
+
+    font-family: DINPro_Black, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
     color: var(--superfly-yellowis);
+}
+
+.product-name,
+.product-price {
+    padding: 8px 0 8px 20px;
+
+    font-family: DINPro_Bold, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .02rem;
+    color: var(--white);
+}
+
+.product-name>span,
+.product-price>span {
+    font-family: DINPro_Light, Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+}
+
+.vertical-border,
+.horizontal-border {
+    position: absolute;
+    opacity: .9;
+}
+
+.vertical-border {
+    width: 75%;
+    height: 0;
+    border-bottom: 4px dotted var(--white);
+
+    left: 50%;
+    top: 60.5%;
+    transform: translateX(-50%);
+}
+
+.horizontal-border {
+    height: 75%;
+    width: 0;
+    border-right: 4px dotted var(--white);
+
+    left: 50%;
+    top: 50%;
+    transform: translateY(-43%);
 }
