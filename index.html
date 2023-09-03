@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="/assets/img/_Superfly logos.svg"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="/data/hotDrinks.json"></script>
-    <script src="/data/softDrinks.json"></script>
-    <script src="/data/foods.json"></script>
-    <script src="/data/colds.json"></script>
-    <script src="/data/titles.json"></script>
-    <script src="/app.js" defer></script>
-    <title>Skylounge menu</title>
-  </head>
 
-  <body>
-    <div class="fix-border">
-      <div class="top-left corner"></div>
-      <div class="top-right corner"></div>
-      <div class="bottom-left corner"></div>
-      <div class="bottom-right corner"></div>
-      <div class="language-selector-container">
-        <a class="language-selector active" data-id="0">HUN</a>
-        <a class="language-selector" data-id="1">ENG</a>
-      </div>
-    </div>
-    <div id="root"></div>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/svg+xml" href="/assets/img/_Superfly logos.svg" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="/data/hotDrinks.json"></script>
+	<script src="/data/softDrinks.json"></script>
+	<script src="/data/foods.json"></script>
+	<script src="/data/colds.json"></script>
+	<script src="/data/titles.json"></script>
+	<script src="/app.js" defer></script>
+	<title>Skylounge menu</title>
+</head>
+
+<body>
+	<div class="fix-border">
+		<div class="top-left corner"></div>
+		<div class="top-right corner"></div>
+		<div class="bottom-left corner"></div>
+		<div class="bottom-right corner"></div>
+		<div class="language-selector-container">
+			<a class="language-selector active" data-id="0">HUN</a>
+			<a class="language-selector" data-id="1">ENG</a>
+		</div>
+	</div>
+
+	<div class="opening-section-wrapper">
+		<div class="opening-images-container">
+			<div class="side-images left">
+				<div class="top-image-container"></div>
+				<div class="top-image-container"></div>
+			</div>
+			<div class="center-images">
+				<div class="pizza-container"></div>
+				<div class="menu-image-container"></div>
+				<div class="logo-container"></div>
+			</div>
+			<div class="side-images right">
+				<div class="top-image-container"></div>
+				<div class="top-image-container"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="root"></div>
+</body>
+
 </html>
