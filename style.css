@@ -194,6 +194,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 0 10px;
 }
 
 .opening-section-wrapper::after {
@@ -231,20 +233,17 @@ body {
 
 .side-images.left>.top-image-container:first-child {
     position: relative;
-    background: url('/assets/img/GlassDrink.svg') center center no-repeat;
-    transform: rotate(340deg);
+    background: url('/assets/img/GlassDrink_rotated.svg') center center no-repeat;
 }
 
 .side-images.left>.top-image-container:last-child {
     position: relative;
-    background: url('/assets/img/Dougnot.svg') center center no-repeat;
-    transform: rotate(20deg);
+    background: url('/assets/img/Dougnot_rotated.svg') center center no-repeat;
 }
 
 .side-images.right>.top-image-container:first-child {
     position: relative;
-    background: url('/assets/img/FastDrink.svg') center center no-repeat;
-    transform: rotate(20deg);
+    background: url('/assets/img/FastDrink_rotated.svg') center center no-repeat;
 }
 
 .side-images.right>.top-image-container:last-child {
@@ -254,7 +253,7 @@ body {
 
 .side-images.left>.top-image-container,
 .side-images.right>.top-image-container {
-    width: 77%;
+    width: 100%;
     aspect-ratio: 1/1;
     background-size: contain !important;
 }

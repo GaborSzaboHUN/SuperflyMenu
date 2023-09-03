@@ -148,6 +148,9 @@ window.addEventListener('scroll', () => {
     menuImage.style.top = scrollSpeed * 0.3 + 'px';
     logo.style.top = scrollSpeed * 0.2 + 'px';
 
-    galssBottle.style.transform = `rotate(${scrollSpeed * 0.05}deg)`;
-
-})
+    galssBottle.style.transform = `rotate(${scrollSpeed * 0.025}deg)`;
+    dougnot.style.transform = `rotate(${scrollSpeed * -0.025}deg)`;
+    paperBottle.style.transform = `rotate(${scrollSpeed * -0.025}deg)`;
+    iceCream.style.transform = `rotate(${scrollSpeed * -0.025}deg)`;
+}
+)
