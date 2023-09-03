@@ -145,12 +145,17 @@ window.addEventListener('scroll', () => {
     const scrollSpeed = window.scrollY
 
     pizzaRay.style.top = scrollSpeed * 0.2 + 'px';
-    menuImage.style.top = scrollSpeed * 0.3 + 'px';
+    menuImage.style.top = scrollSpeed * 0.35 + 'px';
     logo.style.top = scrollSpeed * 0.2 + 'px';
 
     galssBottle.style.transform = `rotate(${scrollSpeed * 0.025}deg)`;
     dougnot.style.transform = `rotate(${scrollSpeed * -0.025}deg)`;
     paperBottle.style.transform = `rotate(${scrollSpeed * -0.025}deg)`;
     iceCream.style.transform = `rotate(${scrollSpeed * -0.025}deg)`;
+
+    galssBottle.style.left = scrollSpeed * 0.03 + 'px';
+    dougnot.style.left = scrollSpeed * 0.03 + 'px';
+    paperBottle.style.right = scrollSpeed * 0.03 + 'px';
+    iceCream.style.right = scrollSpeed * 0.03 + 'px';
 }
 )

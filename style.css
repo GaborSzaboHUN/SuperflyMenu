@@ -214,7 +214,7 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    width: 77%;
+    width: 100%;
     max-width: 1200px;
     height: 80%;
 }
@@ -311,6 +311,10 @@ body {
 .foods-main-container,
 .colds-main-container {
     position: relative;
+}
+
+.colds-main-container {
+    margin-bottom: 40px;
 }
 
 .foods-main-container {
@@ -435,8 +439,7 @@ body {
 
     .hotdrinks-main-container::after,
     .softdrinks-main-container::after,
-    .foods-main-container::after,
-    .colds-main-container::after {
+    .foods-main-container::after {
         content: "";
         display: block;
         width: 70%;
