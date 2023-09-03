@@ -127,3 +127,27 @@ languageSelectors.forEach((languageSelector) => {
 function addThousandsSeparator(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
+
+// - - - - - - - - - - PARALAX EFFECT
+
+const pizzaRay = document.querySelector('.pizza-container')
+const menuImage = document.querySelector('.menu-image-container')
+const logo = document.querySelector('.logo-container')
+
+const galssBottle = document.querySelector('.side-images.left>.top-image-container:first-child')
+const dougnot = document.querySelector('.side-images.left>.top-image-container:last-child ')
+const paperBottle = document.querySelector('.side-images.right>.top-image-container:first-child')
+const iceCream = document.querySelector('.side-images.right>.top-image-container:last-child')
+
+
+
+window.addEventListener('scroll', () => {
+    const scrollSpeed = window.scrollY
+
+    pizzaRay.style.top = scrollSpeed * 0.2 + 'px';
+    menuImage.style.top = scrollSpeed * 0.3 + 'px';
+    logo.style.top = scrollSpeed * 0.2 + 'px';
+
+    galssBottle.style.transform = `rotate(${scrollSpeed * 0.05}deg)`;
+
+})
