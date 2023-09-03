@@ -7,7 +7,7 @@ const colds = [
     {
         "name": ["Jégkása", "Slushy"],
         "varieties": ["2 dl", "2 dl"],
-        "price": 600
+        "price": 1600
     },
     {
         "name": ["Fagyi", "Ice-cream"],
