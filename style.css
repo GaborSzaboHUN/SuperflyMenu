@@ -362,6 +362,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0 20px;
 }
 
 .product-category-title {
@@ -375,7 +376,7 @@ body {
 
 .product-name,
 .product-price {
-    padding: 8px 0 8px 20px;
+    padding: 8px 0;
 
     font-family: DINPro_Bold, Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -386,6 +387,7 @@ body {
 
 .product-price {
     min-width: 74px;
+    text-align: right;
 }
 
 .product-name>span,
@@ -466,10 +468,17 @@ body {
         font-size: 1.75rem;
     }
 
+    .hotdrinks-container,
+    .softdrinks-container,
+    .foods-container,
+    .colds-container {
+        padding: 0 12px;
+    }
+
     .product-name,
     .product-price {
         font-size: .9rem;
-        padding: 5px 0 5px 12px;
+        padding: 5px 0;
     }
 
     .product-name>span,
