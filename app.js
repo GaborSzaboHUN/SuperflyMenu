@@ -147,6 +147,8 @@ window.addEventListener('scroll', () => {
     pizzaRay.style.top = scrollSpeed * 0.2 + 'px';
     menuImage.style.top = scrollSpeed * 0.35 + 'px';
     logo.style.top = scrollSpeed * 0.2 + 'px';
+    galssBottle.style.top = scrollSpeed * 0.1 + 'px';
+    paperBottle.style.top = scrollSpeed * 0.1 + 'px';
 
     galssBottle.style.transform = `rotate(${scrollSpeed * 0.025}deg)`;
     dougnot.style.transform = `rotate(${scrollSpeed * -0.025}deg)`;
