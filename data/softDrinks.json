@@ -20,7 +20,7 @@ const softDrinks = [
         "price": 550
     },
     {
-        "name": ["Cappy gyümi", "Cappy fruit juices"],
+        "name": ["Cappy gyümölcslevek", "Cappy fruit juices"],
         "varieties": ["0,25l", "0,25l"],
         "price": 550
     },
