@@ -228,7 +228,7 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    padding: 6% 0;
+    padding: 2% 0;
 }
 
 .side-images.left>.top-image-container:first-child {
@@ -278,12 +278,14 @@ body {
 }
 
 .pizza-container {
+    max-height: 20vh;
     width: 60%;
     background: url('/assets/img/Pizza_group.svg') center center no-repeat;
 }
 
 .menu-image-container {
     background: url('/assets/img/Menu_group.svg') center center no-repeat;
+    max-height: 38vh;
 }
 
 .logo-container {
@@ -458,6 +460,14 @@ body {
 
     .corner {
         width: 50px;
+    }
+
+    .pizza-container {
+        max-height: unset;
+    }
+
+    .menu-image-container {
+        max-height: unset;
     }
 }
 
