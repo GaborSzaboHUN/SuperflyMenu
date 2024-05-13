@@ -7,7 +7,7 @@ const softDrinks = [
     {
         "name": ["Fritz", "Fritz"],
         "varieties": ["0,33l", "0,33l"],
-        "price": 850
+        "price": 1000
     },
     {
         "name": ["Viwa", "Viwa"],
