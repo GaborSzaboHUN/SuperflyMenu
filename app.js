@@ -76,7 +76,17 @@ const languageSelectorsContainer = document.querySelector(".language-selector-co
 const languageSelectors = document.querySelectorAll(".language-selector")
 
 languageSelectors.forEach((languageSelector) => {
-    languageSelector.addEventListener("click", () => {
+    languageSelector.addEventListener("click", (e) => {
+
+        const hunImg = document.querySelector('.center-images > .menu-image-container')
+        const engImg = document.querySelector('.center-images > .menu-image-container-eng')
+        if (e.target.getAttribute('data-id') === '1') {
+            hunImg.classList.add('hidden')
+            engImg.classList.remove('hidden')
+        } else {
+            hunImg.classList.remove('hidden')
+            engImg.classList.add('hidden')
+        }
 
         languageSelectorsContainer.querySelector(".active").classList.remove("active")
         languageSelector.classList.add("active")
@@ -128,10 +138,13 @@ function addThousandsSeparator(number) {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
+
+
 // - - - - - - - - - - PARALAX EFFECT
 
 const pizzaRay = document.querySelector('.pizza-container')
 const menuImage = document.querySelector('.menu-image-container')
+const menuImageEng = document.querySelector('.menu-image-container-eng')
 const logo = document.querySelector('.logo-container')
 
 const galssBottle = document.querySelector('.side-images.left>.top-image-container:first-child')
@@ -146,6 +159,7 @@ window.addEventListener('scroll', () => {
 
     pizzaRay.style.top = scrollSpeed * 0.2 + 'px';
     menuImage.style.top = scrollSpeed * 0.35 + 'px';
+    menuImageEng.style.top = scrollSpeed * 0.35 + 'px';
     logo.style.top = scrollSpeed * 0.2 + 'px';
     galssBottle.style.top = scrollSpeed * 0.1 + 'px';
     paperBottle.style.top = scrollSpeed * 0.1 + 'px';
