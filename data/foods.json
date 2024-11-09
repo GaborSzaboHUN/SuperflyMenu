@@ -10,6 +10,11 @@ const foods = [
         "price": 2750
     },
     {
+        "name": ["Lepény", "Pie"],
+        "varieties": ["Sült csirkemell-sonkás / Paradicsomos-mozzarellás / Chilis-marhahúsos" ,"Chicken breast-ham / Tomato-mozzarella / Beef-chili"],
+        "price": 2750
+    },
+    {
         "name": ["Nachos", "Nachos"],
         "varieties": ["", ""],
         "price": 1100
