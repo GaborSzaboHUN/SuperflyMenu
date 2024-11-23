@@ -36,7 +36,7 @@ const hotDrinks = [
     },
     {
         "name": ["Jegeskávé", "Ice-cream coffee"],
-        "varieties": ["", ""],
+        "varieties": [" - szezonális", " - seasonal"],
         "price": 1050
     },
     {
