@@ -31,7 +31,7 @@ const hotDrinks = [
     },
     {
         "name": ["Affogato", "Affogato"],
-        "varieties": ["", ""],
+        "varieties": [" - szezonális", " - seasonal"],
         "price": 750
     },
     {
