@@ -52,6 +52,6 @@ const hotDrinks = [
     {
         "name": ["Növényi tej", "Plant-based milk"],
         "varieties": [" - extra", " - extra"],
-        "price": 550
+        "price": 200
     }
 ]
