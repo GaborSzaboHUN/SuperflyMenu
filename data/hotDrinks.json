@@ -48,5 +48,10 @@ const hotDrinks = [
         "name": ["Tea", "Tea"],
         "varieties": ["", ""],
         "price": 550
+    },
+    {
+        "name": ["Növényi tej", "Plant-based milk"],
+        "varieties": ["extra", "extra"],
+        "price": 550
     }
 ]
