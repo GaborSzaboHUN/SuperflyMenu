@@ -15,12 +15,12 @@ const softDrinks = [
         "price": 650
     },
     {
-        "name": ["Fuze tea", "Fuze tea"],
+        "name": ["Lipton", "Lipton"],
         "varieties": ["0,25l", "0,25l"],
         "price": 600
     },
     {
-        "name": ["Cappy gyümölcslevek", "Cappy fruit juices"],
+        "name": ["Toma gyümölcslevek", "Toma fruit juices"],
         "varieties": ["0,25l", "0,25l"],
         "price": 600
     },
