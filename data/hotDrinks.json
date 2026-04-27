@@ -2,52 +2,52 @@ const hotDrinks = [
     {
         "name": ["Espresso", "Espresso"],
         "varieties": ["", ""],
-        "price": 550
+        "price": 650
     },
     {
         "name": ["Hosszú kávé", "Long coffee"],
         "varieties": ["", ""],
-        "price": 550
+        "price": 650
     },
     {
         "name": ["Dupla espresso", "Double espresso"],
         "varieties": ["Doppio", "Doppio"],
-        "price": 750
+        "price": 950
     },
     {
         "name": ["Cappuccino", "Cappuccino"],
         "varieties": ["", ""],
-        "price": 800
+        "price": 950
     },
     {
         "name": ["Tejes kávé", "Coffee latte"],
         "varieties": ["Latte", ""],
-        "price": 800
+        "price": 950
     },
     {
         "name": ["Latte macchiato", "Latte macchiato"],
         "varieties": ["", ""],
-        "price": 900
+        "price": 1050
     },
     {
         "name": ["Affogato", "Affogato"],
         "varieties": [" - szezonális", " - seasonal"],
-        "price": 750
+        "price": 850
     },
     {
         "name": ["Jegeskávé", "Ice-cream coffee"],
         "varieties": [" - szezonális", " - seasonal"],
-        "price": 1050
+        "price": 1350
     },
     {
         "name": ["Forrócsoki", "Hot chocolate"],
         "varieties": ["", ""],
-        "price": 800
+        "price": 950
     },
     {
         "name": ["Tea", "Tea"],
         "varieties": ["", ""],
-        "price": 550
+        "price": 650
     },
     {
         "name": ["Növényi tej", "Plant-based milk"],
