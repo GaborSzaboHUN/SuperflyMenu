@@ -2,7 +2,7 @@ const softDrinks = [
     {
         "name": ["Szénsavas üdítők", "Soft drinks"],
         "varieties": ["0,25l", "0,25l"],
-        "price": 600
+        "price": 700
     },
     {
         "name": ["Fritz", "Fritz"],
@@ -12,26 +12,26 @@ const softDrinks = [
     {
         "name": ["Viwa", "Viwa"],
         "varieties": ["0,6l", "0,6l"],
-        "price": 650
+        "price": 750
     },
     {
         "name": ["Lipton", "Lipton"],
         "varieties": ["0,25l", "0,25l"],
-        "price": 600
+        "price": 700
     },
     {
         "name": ["Toma gyümölcslevek", "Toma fruit juices"],
         "varieties": ["0,25l", "0,25l"],
-        "price": 600
+        "price": 700
     },
     {
         "name": ["Víz", "Water"],
         "varieties": ["Kis üveges 0,33l", "Small bottle 0,33l"],
-        "price": 450
+        "price": 500
     },
     {
         "name": ["Víz", "Water"],
         "varieties": ["Nagy üveges 0,75l", "Big bottle 0,75l"],
-        "price": 700
+        "price": 750
     }
 ]
