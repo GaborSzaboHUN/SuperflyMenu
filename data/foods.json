@@ -27,7 +27,7 @@ const foods = [
     {
         "name": ["Chips", "Chips"],
         "varieties": ["", ""],
-        "price": 750
+        "price": 800
     },
     {
         "name": ["Stickletti", "Stickletti"],
@@ -42,7 +42,7 @@ const foods = [
     {
         "name": ["Fánk", "Doughnut"],
         "varieties": ["", ""],
-        "price": 450
+        "price": 500
     },
     {
         "name": ["Csoki", "Chocolate"],
